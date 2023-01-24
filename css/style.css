@@ -1,36 +1,21 @@
-/* *{
+*{
     box-sizing: border-box;
     border: 1px solid black;
     margin: 0px;
     padding: 0px;
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100%; 
 }
 
-html, body{
-    height: 100%;
-}
 
 .header {
     background-color: #1F2937;
-    
+
+    padding: 15px 150px;
     display: flex;
+    align-items: center;
 }
 
-.header .logo{
-    flex:none;
-}
-
-.header .link{
-    flex: 1;
-}
-
-.header .space1{
-    flex:1 1 0;
-}
-
-
-.header .logo{
+.header > .logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -38,6 +23,18 @@ html, body{
     flex: none;
 }
 
+.header > .space1{
+    flex:1 1 0;
+}
+
+
 .header .link {
-    flex: none
-}  */
+    flex: none;
+
+    font-size: 18px;
+    color: #E5E7EB;
+
+    padding: 0px 10px;
+} 
+
+
