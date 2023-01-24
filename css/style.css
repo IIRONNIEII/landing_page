@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px;
     padding: 0px;
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,7 +10,7 @@
 .header {
     background-color: #1F2937;
 
-    padding: 15px 150px;
+    padding: 15px 15%;
     display: flex;
     align-items: center;
 }
@@ -38,3 +38,46 @@
 } 
 
 
+.first {
+    background-color: #1F2937;
+
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.first > .intro > .a{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+.first > .intro > .b{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first > .intro > button{
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 8px;
+    padding:8px 20px;
+    border: none;
+}
+
+.first > div {
+    flex:auto;
+}
+
+.first > .intro {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.first >img {
+    width : 50%;
+}
